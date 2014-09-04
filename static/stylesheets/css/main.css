@@ -5,6 +5,15 @@
 
 /* Mixin Setup */
 /* End Mixin Setup */
+/* Background Setup */
+.fullScreenBG {
+  background: url(../../images/breatheBG.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* End Background Setup */
 /* Font Setup */
 @font-face {
   font-family: open-sans;
