@@ -82,9 +82,16 @@ $bgColor: #F1EDE2
 	width: 66.66%
 
 .innerCol
-	min-height: 370px
 	max-width: 300px
 	padding: 10px
+	img
+		padding-bottom: 20px
+	h1
+		padding-top: 10px
+		padding-bottom: 10px
+
+.minInnerColHeight
+	min-height: 461px
 
 /* End Grid Setup */
 
@@ -146,11 +153,14 @@ $scrollScaleDeep: scale((1 + ($scrollSpeedDeep * -1) / $perspective))
 	@include borderRadius(5px)
 
 .boxShadow
-	@include boxShadow(2px,2px,5px,white)
+	@include boxShadow(2px,2px,5px,$bgColor)
 
 .paddingLarge
 	padding-top: 100px
 	padding-bottom: 100px
+
+.bottomPadding
+	padding-bottom: 50px
 
 /* End Basic Tools */
 
@@ -205,10 +215,11 @@ $navBr: 30px
 
 .navPadding
 	padding-top: ($navHeight * 2)	
+	padding-bottom: $navHeight
 
 #navBar
 	background: black
-	color: white
+	color: $bgColor
 	height: $navHeight
 	width: $navWidth
 	position: fixed
@@ -219,9 +230,9 @@ $navBr: 30px
 	border-bottom-left-radius: $navBr
 	border-bottom-right-radius: $navBr
 	a
-		color: white
+		color: $bgColor
 		&:hover
-			color: green
+			color: #4DEB17
 	li
 		display: inline-block
 		padding:  10px
@@ -233,6 +244,32 @@ $navBr: 30px
 body,html
 	background: #F1EDE2
 
+.smallImg 
+	img
+		display: block
+		height: 150px
+		width: auto
 
+.noLink
+	text-decoration: none
+	color: black
+
+.ajaxDiv
+	width: 33%
+	margin: 0 auto
+	li
+		padding-bottom: 10px
+
+.ajaxLink
+	background: #FD6824
+	h1
+		color: black
+	&:hover
+		background: #BF0228
+		h1
+			color: $bgColor
+
+.sublimeFix
+	padding-bottom: 75px
 
 /* End Special Case */
