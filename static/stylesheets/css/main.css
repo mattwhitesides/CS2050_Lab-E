@@ -184,6 +184,9 @@ body, html {
   padding-top: 100px;
   padding-bottom: 50px; }
 
+.navPaddingNoBottom {
+  padding-top: 100px; }
+
 #navBar {
   background: black;
   color: #f1ede2;
