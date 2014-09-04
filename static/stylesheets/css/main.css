@@ -11,7 +11,7 @@
   src: url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"); }
 body, html {
   font-family: open-sans, sans-serif; }
-  body h1, html h1 {
+  body h1, body h2, body h3, html h1, html h2, html h3 {
     font-weight: 300; }
   body article, body p, html article, html p {
     font-weight: 300; }
