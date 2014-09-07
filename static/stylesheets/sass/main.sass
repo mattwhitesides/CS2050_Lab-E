@@ -48,6 +48,8 @@ body, html
 
 $padding: 0px
 $bgColor: #F1EDE2
+$codeGreen: #8ECA16
+$codeBg: #002B33
 
 *, *:after, *:before
 	-webkit-box-sizing: border-box
@@ -155,6 +157,10 @@ $scrollScaleDeep: scale((1 + ($scrollSpeedDeep * -1) / $perspective))
 
 .center
 	margin: 0 auto
+	img
+		display: block
+		margin-left: auto
+		margin-right: auto
 
 .fullscreen
 	height: auto
@@ -164,7 +170,7 @@ $scrollScaleDeep: scale((1 + ($scrollSpeedDeep * -1) / $perspective))
 	@include borderRadius(5px)
 
 .boxShadow
-	@include boxShadow(2px,2px,5px,$bgColor)
+	@include boxShadow(2px,2px,5px,$codeBg)
 
 .paddingLarge
 	padding-top: 100px
@@ -246,12 +252,51 @@ $navBr: 30px
 	a
 		color: $bgColor
 		&:hover
-			color: #4DEB17
+			color: $codeGreen
 	li
 		display: inline-block
 		padding:  10px
 
 /* End NavBar Setup */
+
+/* Code Formatting */
+
+.code
+	background: $codeBg
+	width: 600px
+	@include borderRadius(5px)
+	h1
+		font-family: courier
+		color: $codeGreen
+		padding: 10px
+.code2
+	background: $codeBg
+	width: 800px
+	@include borderRadius(5px)
+	h1
+		font-family: courier
+		color: $codeGreen
+		padding: 10px
+		font-size: 22px
+
+.tab
+	margin-left: 1em
+.tab2
+	margin-left: 2em
+.tab3
+	margin-left: 3em	
+
+/* Code Formatting */
+
+/* Article Setup */
+
+.article
+	width: 800px
+	margin: 0 auto
+	article
+		padding-top: 10px
+
+/* Article Setup */
 
 /* Special Case */
 
