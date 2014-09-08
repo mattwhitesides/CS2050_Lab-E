@@ -5,25 +5,30 @@
 
 /* Mixin Setup */
 /* End Mixin Setup */
-/* Font Setup and Theme Setup */
+/* Font Theme Setup */
 body, html {
   font-family: open-sans, sans-serif;
-  background: #f1ede2;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background: #f1ede2; }
   body h1, body h2, body h3, html h1, html h2, html h3 {
     font-weight: 300; }
   body article, body p, html article, html p {
     font-weight: 300; }
+  body .fullScreenBG, html .fullScreenBG {
+    background: url(../../images/breatheBG.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    body .fullScreenBG #heroTitle, html .fullScreenBG #heroTitle {
+      font-size: 60px; }
   body .themeOrange, html .themeOrange {
-    background: url(../../images/lab2Theme.png) no-repeat center center fixed; }
+    background: url(../../images/lab2Theme.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
 
-.fullScreenBG {
-  background: url(../../images/breatheBG.png) no-repeat center center fixed; }
-
-/* End Font Setup */
+/* End Theme Setup */
 /* Grid Setup (Thanks to Chris Coyier at http://css-tricks.com/dont-overthink-it-grids/) */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -172,9 +177,6 @@ body, html {
   left: 50%;
   top: 35%;
   transform: translate(-50%, -50%); }
-
-#heroTitle {
-  font-size: 75px; }
 
 /* Test Tools */
 /* Video Setup */

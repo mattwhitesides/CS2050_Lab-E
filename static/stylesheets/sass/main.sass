@@ -18,7 +18,7 @@
 
 /* End Mixin Setup */
 
-/* Font Setup and Theme Setup */
+/* Font Theme Setup */
 
 // @font-face
 // 	font-family: open-sans
@@ -26,24 +26,28 @@
 
 body, html
 	font-family: open-sans, sans-serif 
-	background: #F1EDE2
-	-webkit-background-size: cover
-	-moz-background-size: cover
-	-o-background-size: cover
-	background-size: cover	
+	background: #F1EDE2	
 	h1, h2, h3 
 		font-weight: 300
 	article, p
 		font-weight: 300
+	.fullScreenBG
+		background: url(../../images/breatheBG.png) no-repeat center center fixed
+		-webkit-background-size: cover
+		-moz-background-size: cover
+		-o-background-size: cover
+		background-size: cover
+		#heroTitle
+			font-size: 60px
 	.themeOrange
 		background: url(../../images/lab2Theme.png) no-repeat center center fixed
+		-webkit-background-size: cover
+		-moz-background-size: cover
+		-o-background-size: cover
+		background-size: cover
 
 
-.fullScreenBG
-	background: url(../../images/breatheBG.png) no-repeat center center fixed
-
-
-/* End Font Setup */
+/* End Theme Setup */
 
 /* Grid Setup (Thanks to Chris Coyier at http://css-tricks.com/dont-overthink-it-grids/) */
 
@@ -214,8 +218,6 @@ $scrollScaleDeep: scale((1 + ($scrollSpeedDeep * -1) / $perspective))
 	top: 35%
 	transform: translate(-50%, -50%)
 
-#heroTitle
-	font-size: 75px
 
 /* Test Tools */
 
