@@ -5,25 +5,23 @@
 
 /* Mixin Setup */
 /* End Mixin Setup */
-/* Background Setup */
-.fullScreenBG {
-  background: url(../../images/breatheBG.png) no-repeat center center fixed;
+/* Font Setup and Theme Setup */
+body, html {
+  font-family: open-sans, sans-serif;
+  background: #f1ede2;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-
-/* End Background Setup */
-/* Font Setup */
-@font-face {
-  font-family: open-sans;
-  src: url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"); }
-body, html {
-  font-family: open-sans, sans-serif; }
   body h1, body h2, body h3, html h1, html h2, html h3 {
     font-weight: 300; }
   body article, body p, html article, html p {
     font-weight: 300; }
+  body .themeOrange, html .themeOrange {
+    background: url(../../images/lab2Theme.png) no-repeat center center fixed; }
+
+.fullScreenBG {
+  background: url(../../images/breatheBG.png) no-repeat center center fixed; }
 
 /* End Font Setup */
 /* Grid Setup (Thanks to Chris Coyier at http://css-tricks.com/dont-overthink-it-grids/) */
@@ -33,7 +31,6 @@ body, html {
   box-sizing: border-box; }
 
 .grid {
-  background: #f1ede2;
   margin: 0 0 0px 0; }
   .grid:after {
     content: "";
@@ -173,8 +170,11 @@ body, html {
   text-align: center;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 35%;
   transform: translate(-50%, -50%); }
+
+#heroTitle {
+  font-size: 75px; }
 
 /* Test Tools */
 /* Video Setup */
@@ -190,6 +190,12 @@ body, html {
 
 .navPaddingNoBottom {
   padding-top: 100px; }
+
+.bottomPadding {
+  padding-bottom: 50px; }
+
+.topPadding {
+  padding-top: 50px; }
 
 #navBar {
   background: black;
@@ -219,7 +225,7 @@ body, html {
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px; }
-  .code h1 {
+  .code h1, .code a {
     font-family: courier;
     color: #8eca16;
     padding: 10px; }
@@ -235,6 +241,18 @@ body, html {
     color: #8eca16;
     padding: 10px;
     font-size: 22px; }
+
+.codeSmall {
+  background: #002b33;
+  width: 400px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; }
+  .codeSmall h1, .codeSmall a {
+    font-family: courier;
+    padding: 10px; }
+    .codeSmall h1 a, .codeSmall a a {
+      color: #8eca16; }
 
 .tab {
   margin-left: 1em; }
@@ -255,9 +273,6 @@ body, html {
 
 /* Article Setup */
 /* Special Case */
-body, html {
-  background: #f1ede2; }
-
 .smallImg img {
   display: block;
   height: 150px;
