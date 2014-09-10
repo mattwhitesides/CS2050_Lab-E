@@ -33,9 +33,7 @@
 				<h1>FOR i in LENGTH - 1</h1>
 					<h1 class="tab">FOR j in LENGTH - i - 1</h1>
 						<h1 class="tab2">IF arrayElement[j] > arrayElement[j + 1]</h1>
-							<h1 class="tab3">SET temp TO arrayElement[j]</h1>
-							<h1 class="tab3">SET arrayElement[j] TO arrayElement[j + 1]</h1>
-							<h1 class="tab3">SET arrayElement[j + 1] TO temp</h1>
+							<h1 class="tab3">SWAP arrayElement[j] and arrayElement[j + 1]</h1>
 						<h1 class="tab2">ENDIF</h1>
 					<h1 class="tab">ENDFOR</h1>
 				<h1>ENDFOR</h1>
@@ -45,9 +43,51 @@
 			<h2>Selection Sort</h2>
 			<hr>
 			<article>
+				Selection sort is one of the best sorts to do in a list that is of reasonable size. While potentially not as efficient as the simmular insertion sort and larger sorting algroithems. Selection benifits from its simplicity and speed in small to medium size lists. By medium size I mean things around the thousands. As compared to Merge or Quick sorts which requires allocating space to store all the temporary lists, most smaller lists can be sorted in the ammount of time a more complex sorting takes to just initialize (this is fractions of seconds).<br>
+				Basicly selection sort finds the smallest value (or largest) on the first pass and places it at the begining, then finds the second smallest storing it at place two... ect this grows until there is no unsorted vlues left. Very simple and natural when you think about it.
+			</article>
+			<br>
+			<h3 class="centerText">Psudo Code:</h3>
+			<div class="code2">
+				<h1>FOR i = 1 in LENGTH</h1>
+					<h1 class="tab">SET temp TO arrayElement[i]</h1>
+					<h1 class="tab">FOR j = i - 1 in LENGTH > 0 AND arrayElement[j] > temp COUNTS BACKWARDS</h1>
+						<h1 class="tab2">SET arrayElement[j + 1] TO arrayElement[j]</h1>
+					<h1 class="tab">ENDFOR</h1>
+					<h1 class="tab">SET arrayElement[j + 1] TO temp</h1>					
+				<h1>ENDFOR</h1>
+			</div>		
+		</div>
+		<div class="article navPadding">
+			<h2>Insertion Sort</h2>
+			<hr>
+			<article>
+				Insertion is a slightly smarter version of Selection sort. Instead of finding the smallest value in the list and placing it at the start, insertion takes what ever value it has and places it in the "sorted" side of the list. This means it does not have to check each one for the minimum it just checks aginst whats already sorted. Like a selection sort, insertion is best for smaller lists, but still likely faster and computationally less expensive to preform on smaller lists than quick, merge or heap sort. In its worst case scenerio like if the elements where in the oppsite order desired it has the same complexity as selection (n(n-1)/2) but in most cases it will not need to search the whole list so its almost always better.
+			</article>
+			<br>
+			<h3 class="centerText">As Shown Here:</h3>
+			<div class="center">
+				<img class="boxShadow" alt="" src="http://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif" width="300" height="180" class="thumbimage" data-file-width="300" data-file-height="180">
+			</div>
+			<br>
+			<h3 class="centerText">Psudo Code:</h3>
+			<div class="code2">
+				<h1>FOR i = 1 LESS THAN OR EQUAL TO LENGTH - 1</h1>
+					<h1 class="tab">SET j TO i</h1>					
+					<h1 class="tab">WHILE j > 0 AND arrayElement[j] < arrayElement[j - 1]</h1>
+						<h1 class="tab2">SWAP arrayElement[j] and arrayElement[j - 1]</h1>
+						<h1 class="tab2">SET j TO j - 1</h1>
+					<h1 class="tab">ENDWHILE</h1>
+				<h1>ENDFOR</h1>
+			</div>
+		</div>			
+		<div class="article navPadding">
+			<h2>Heap Sort</h2>
+			<hr>
+			<article>
 				Comming Soon...
 			</article>		
-		</div>	
+		</div>		
 		<div class="article navPadding">
 			<h2>Merge Sort</h2>
 			<hr>
