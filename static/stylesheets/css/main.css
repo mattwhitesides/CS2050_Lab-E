@@ -256,6 +256,17 @@ body, html {
     .codeSmall h1 a, .codeSmall a a {
       color: #8eca16; }
 
+.codeLarge {
+  background: #002b33;
+  width: 1000px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; }
+  .codeLarge h1 {
+    font-family: courier;
+    color: #8eca16;
+    padding: 10px; }
+
 .tab {
   margin-left: 1em; }
 
