@@ -231,6 +231,12 @@ body, html {
     font-family: courier;
     color: #8eca16;
     padding: 10px; }
+    .code h1 .codeRed, .code a .codeRed {
+      color: #d73117;
+      display: inline; }
+    .code h1 .codeBlue, .code a .codeBlue {
+      color: #04c4d9;
+      display: inline; }
 
 .code2 {
   background: #002b33;
@@ -243,6 +249,12 @@ body, html {
     color: #8eca16;
     padding: 10px;
     font-size: 22px; }
+    .code2 h1 .codeRed {
+      color: #d73117;
+      display: inline; }
+    .code2 h1 .codeBlue {
+      color: #04c4d9;
+      display: inline; }
 
 .codeSmall {
   background: #002b33;
@@ -255,6 +267,9 @@ body, html {
     padding: 10px; }
     .codeSmall h1 a, .codeSmall a a {
       color: #8eca16; }
+    .codeSmall h1 .codeRed, .codeSmall a .codeRed {
+      color: #d73117;
+      display: inline; }
 
 .codeLarge {
   background: #002b33;
@@ -266,6 +281,9 @@ body, html {
     font-family: courier;
     color: #8eca16;
     padding: 10px; }
+    .codeLarge h1 .codeRed {
+      color: #d73117;
+      display: inline; }
 
 .tab {
   margin-left: 1em; }
