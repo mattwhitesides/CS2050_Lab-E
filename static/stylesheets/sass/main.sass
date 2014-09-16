@@ -1,8 +1,14 @@
 /* Basic Setup */
-
 *
 	margin: 0
 	padding: 0
+
+$padding: 0px
+$bgColor: #F1EDE2
+$codeGreen: #8ECA16
+$codeBg: #002B33
+$codeRed: #D73117
+$codeBlue: #04C4D9	
 
 /* Mixin Setup */
 
@@ -45,18 +51,26 @@ body, html
 		-moz-background-size: cover
 		-o-background-size: cover
 		background-size: cover
-
+	.lab3Theme
+		background: url(../../images/lab3Theme.jpg) no-repeat center center fixed
+		-webkit-background-size: cover
+		-moz-background-size: cover
+		-o-background-size: cover
+		background-size: cover		
+		h1,h2,h3,h4, a
+			color: #F1EDE2
+			a
+				color: $codeGreen
+		#navBar
+			background: #F1EDE2
+			a
+				color: black
+				&:hover
+					color: $codeGreen
 
 /* End Theme Setup */
 
 /* Grid Setup (Thanks to Chris Coyier at http://css-tricks.com/dont-overthink-it-grids/) */
-
-$padding: 0px
-$bgColor: #F1EDE2
-$codeGreen: #8ECA16
-$codeBg: #002B33
-$codeRed: #D73117
-$codeBlue: #04C4D9
 
 *, *:after, *:before
 	-webkit-box-sizing: border-box
@@ -289,7 +303,7 @@ $navBr: 30px
 			color: $codeBlue
 			display: inline	
 
-.code2
+.code2, #forceCode2
 	background: $codeBg
 	width: 800px
 	@include borderRadius(5px)
