@@ -84,23 +84,15 @@
 			<h1>//Outputs: 3</h1>
 		</div>
 		<br><br>
-		<h2 class="centerText">So what if none was sucessful? (like if the file ended)</h2>		
+		<h2 class="centerText">So what if we wanted to loop until a file has ended?</h2>		
 		<div id="forceCode2" class="center">
-			<h1>int numSuccess = fscanf(file, "%d%d%d", &x, &y, &z);</h1>
-			<h1>printf("%d", numSuccess);</h1>
-			<h1>//Outputs: -1</h1>
-		</div>
-		<br><br>
-		<h2 class="centerText">In c there is a special keyword 'EOF' that evaluates to -1;</h2>		
-		<div id="forceCode2" class="center">
-			<h1>if (fscanf(file, "%d%d%d", &x, &y, &z) != EOF) {</h1>
-				<h1 class="tab">printf("Success");</h1>
-				<h1 class="tab">//Outputs: "HAPPY BATMAN"</h1>
-			<h1>} else {</h1>
-				<h1 class="tab">printf("No Success");</h1>
-				<h1 class="tab">//Outputs: "SAD BATMAN"</h1>
+			<h1>while (1) {</h1>
+				<h1 class="tab">if (feof(file)) {</h1>
+					<h1 class="tab2">break;</h1>
+				<h1 class="tab">}</h1>
+				<h1 class="tab">fscanf(file, "%d%d%d", &x, &y, &z);</h1>
 			<h1>}</h1>
-		</div>		
+		</div>
 		<br><br><br><br><br><br>
 	</body>
 </html>
