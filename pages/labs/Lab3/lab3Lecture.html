@@ -60,7 +60,7 @@
 		<br>		
 		<div id="forceCode2" class="center">
 			<h1>batmanPtr->age = 11;</h1>
-			<h1>print("%d", batman.age);</h1>
+			<h1>printf("%d", batman.age);</h1>
 			<h1>//Outputs: 11</h1>
 		</div>
 		<br><br>
@@ -68,9 +68,39 @@
 		<br>		
 		<div id="forceCode2" class="center">
 			<h1>Hero batmanImposter = *batmanPtr;</h1>
-			<h1>print("%s", batmanImposter.name);</h1>
+			<h1>printf("%s", batmanImposter.name);</h1>
 			<h1>//Outputs: Bruce</h1>
 		</div>
+		<br><br>
+		<h1 class="centerText">And now a quick side bar.</h1>
+		<br><br>
+		<h2 class="centerText">fscanf without knowing the file size.</h2>
+		<h2 class="centerText">fscanf does have a return type.</h2>
+		<h2 class="centerText">It's an int number of items sucessfully matched.</h2>
+		<br>		
+		<div id="forceCode2" class="center">
+			<h1>int numSuccess = fscanf(file, "%d%d%d", &x, &y, &z);</h1>
+			<h1>printf("%d", numSuccess);</h1>
+			<h1>//Outputs: 3</h1>
+		</div>
+		<br><br>
+		<h2 class="centerText">So what if none was sucessful? (like if the file ended)</h2>		
+		<div id="forceCode2" class="center">
+			<h1>int numSuccess = fscanf(file, "%d%d%d", &x, &y, &z);</h1>
+			<h1>printf("%d", numSuccess);</h1>
+			<h1>//Outputs: -1</h1>
+		</div>
+		<br><br>
+		<h2 class="centerText">In c there is a special keyword 'EOF' that evaluates to -1;</h2>		
+		<div id="forceCode2" class="center">
+			<h1>if (fscanf(file, "%d%d%d", &x, &y, &z) != EOF) {</h1>
+				<h1 class="tab">printf("Success");</h1>
+				<h1 class="tab">//Outputs: "HAPPY BATMAN"</h1>
+			<h1>} else {</h1>
+				<h1 class="tab">printf("No Success");</h1>
+				<h1 class="tab">//Outputs: "SAD BATMAN"</h1>
+			<h1>}</h1>
+		</div>		
 		<br><br><br><br><br><br>
 	</body>
 </html>
