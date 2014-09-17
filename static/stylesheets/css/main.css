@@ -272,18 +272,18 @@ body, html {
       color: #04c4d9;
       display: inline; }
 
-.codeSmall {
+.codeSmall, #forceCodeSmall {
   background: #002b33;
   width: 400px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px; }
-  .codeSmall h1, .codeSmall a {
+  .codeSmall h1, .codeSmall a, #forceCodeSmall h1, #forceCodeSmall a {
     font-family: courier;
     padding: 10px; }
-    .codeSmall h1 a, .codeSmall a a {
+    .codeSmall h1 a, .codeSmall a a, #forceCodeSmall h1 a, #forceCodeSmall a a {
       color: #8eca16; }
-    .codeSmall h1 .codeRed, .codeSmall a .codeRed {
+    .codeSmall h1 .codeRed, .codeSmall a .codeRed, #forceCodeSmall h1 .codeRed, #forceCodeSmall a .codeRed {
       color: #d73117;
       display: inline; }
 
