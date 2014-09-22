@@ -253,6 +253,9 @@ body, html {
     .code h1 .codeBlue, .code a .codeBlue {
       color: #04c4d9;
       display: inline; }
+    .code h1 .codeOrange, .code a .codeOrange {
+      color: #ff530d;
+      display: inline; }
 
 .code2, #forceCode2 {
   background: #002b33;
@@ -270,6 +273,9 @@ body, html {
       display: inline; }
     .code2 h1 .codeBlue, #forceCode2 h1 .codeBlue {
       color: #04c4d9;
+      display: inline; }
+    .code2 h1 .codeOrange, #forceCode2 h1 .codeOrange {
+      color: #ff530d;
       display: inline; }
 
 .codeSmall, #forceCodeSmall {

@@ -80,6 +80,71 @@
 					<h1 class="tab">ENDWHILE</h1>
 				<h1>ENDFOR</h1>
 			</div>
+		</div>		
+		<div class="article navPadding">
+			<h2>Merge Sort</h2>
+			<hr>
+			<article>
+				Ahh good ol' merge sort! The basic idea here is to recursively call the function each time breaking it up in half. Finally when you are left with only one element then as the returns actually start coming back the list is put back in order. Merge sort is great for its average complexity of O(n * log(n)) and being the same for its worst case. But merge comes at a cost because it needs to make an entire copy of the original list to work meaning there is a memory concern for larger arrays and a bit of overhead to setting it up, which is why most merge sort implementations have something like insertion sort built in for smaller arrays.
+			</article>		
+			<br>
+			<h3>I recommend watching this if you want to see merge sort in action, or just something weird.</h3>
+			<h3>(Honestly I didn't even watch it all, but I was onboard within the first 5 seconds.)</h3>
+			<br>
+			<div class="center">
+				<iframe class="boxShadow" width="640" height="375" src="http://www.youtube.com/embed/XaqR3G_NVoo" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<br>
+			<h3 class="centerText">Psudo Code:</h3>
+			<br>
+			<h3 class="centerText">So there are two basic parts of a mergesort, the recursive splitting function and the merge function.</h3>
+			<br>
+			<h3 class="centerText">This will be the actual function called from other functions, lets call it 'MERGESORT'</h3>			
+			<div class="code2">
+				<h1>void <div class="codeOrange">MERGESORT</div> PARAMS array, low, high </h1>
+					<h1 class="tab"><div class="codeRed">IF</div> low IS LESS THAN high</h1>
+						<h1 class="tab2">SET mid TO low + high / 2</h1>					
+						<h1 class="tab2">mergeSort(array, low, mid)</h1>
+						<h1 class="tab2">mergeSort(array, mid + 1, high)</h1>
+						<h1 class="tab2">merge(array, low, mid, high)</h1>
+					<h1 class="tab"><div class="codeRed">ENDIF</div></h1>
+				<h1><div class="codeOrange">ENDMERGESORT</div></h1>
+			</div>
+			<br>
+			<h3 class="centerText">Here we have the comparison and swaping function called from MERGESORT, lets call it MERGE</h3>			
+			<div class="code2">
+				<h1>void <div class="codeOrange">MERGE</div> PARAMS array, low, mid, high </h1>
+					<h1 class="tab">INITIALIZE tempArray</h1>
+					<h1 class="tab">INITIALIZE i SET TO low</h1>
+					<h1 class="tab">INITIALIZE j SET TO mid + 1</h1>
+					<h1 class="tab">INITIALIZE k SET TO 0</h1>
+					<br>
+					<h1 class="tab"><div class="codeBlue">WHILE</div> i <= mid AND j <= high</h1>
+						<h1 class="tab2"><div class="codeRed">IF</div> array[i] <= array[j]</h1>					
+							<h1 class="tab3">SET tempArray[k++] TO array[i++]</h1>
+						<h1 class="tab2"><div class="codeRed">ENDIF</div></h1>
+						<h1 class="tab2"><div class="codeRed">ELSE</div></h1>
+							<h1 class="tab3">SET tempArray[k++] TO array[j++]</h1>
+						<h1 class="tab2"><div class="codeRed">ENDELSE</div></h1>
+					<h1 class="tab"><div class="codeBlue">ENDWHILE</div></h1>
+					<h1 class="tab"><div class="codeBlue">WHILE</div> i <= mid</h1>
+						<h1 class="tab2">SET tempArray[k++] TO array[i++]</h1>					
+					<h1 class="tab"><div class="codeBlue">ENDWHILE</div></h1>					
+					<h1 class="tab"><div class="codeBlue">WHILE</div> j <= mid</h1>
+						<h1 class="tab2">SET tempArray[k++] TO array[j++]</h1>					
+					<h1 class="tab"><div class="codeBlue">ENDWHILE</div></h1>
+					<h1 class="tab">SET k TO k -1</h1>					
+					<h1 class="tab"><div class="codeBlue">WHILE</div> k > 0</h1>
+						<h1 class="tab2">SET array[low + k] TO array[k]</h1>
+						<h1 class="tab2">SET k TO k - 1</h1>					
+					<h1 class="tab"><div class="codeBlue">ENDWHILE</div></h1>					
+				<h1><div class="codeOrange">ENDMERGE</div></h1>
+			</div>
+			<br>
+			<h3 class="centerText">Boom there we have it, to call it just do somthing simmular to a binary search</h3>			
+			<div class="code2">
+				<h1>mergeSort(array, 0, length);</h1>
+			</div>						
 		</div>			
 		<div class="article navPadding">
 			<h2>Heap Sort</h2>
@@ -88,13 +153,6 @@
 				Comming Soon...
 			</article>		
 		</div>		
-		<div class="article navPadding">
-			<h2>Merge Sort</h2>
-			<hr>
-			<article>
-				Comming Soon...
-			</article>		
-		</div>
 		<div class="article navPadding">
 			<h2>Quick Sort</h2>
 			<hr>
