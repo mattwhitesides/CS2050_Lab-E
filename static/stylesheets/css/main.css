@@ -309,18 +309,25 @@ body, html {
       color: #d73117;
       display: inline; }
 
-.codeLarge {
+.codeLarge, #forceCodeLarge {
   background: #002b33;
   width: 1000px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px; }
-  .codeLarge h1 {
+  .codeLarge h1, #forceCodeLarge h1 {
     font-family: courier;
     color: #8eca16;
-    padding: 10px; }
-    .codeLarge h1 .codeRed {
+    padding: 10px;
+    font-size: 22px; }
+    .codeLarge h1 .codeRed, #forceCodeLarge h1 .codeRed {
       color: #d73117;
+      display: inline; }
+    .codeLarge h1 .codeBlue, #forceCodeLarge h1 .codeBlue {
+      color: #04c4d9;
+      display: inline; }
+    .codeLarge h1 .codeOrange, #forceCodeLarge h1 .codeOrange {
+      color: #ff530d;
       display: inline; }
 
 .tab {
