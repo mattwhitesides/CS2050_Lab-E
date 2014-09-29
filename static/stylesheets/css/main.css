@@ -302,6 +302,8 @@ body, html {
   -moz-border-radius: 5px; }
   .codeSmall h1, .codeSmall a, #forceCodeSmall h1, #forceCodeSmall a {
     font-family: courier;
+    color: #8eca16;
+    font-size: 22px;
     padding: 10px; }
     .codeSmall h1 a, .codeSmall a a, #forceCodeSmall h1 a, #forceCodeSmall a a {
       color: #8eca16; }
