@@ -6,7 +6,7 @@
 $padding: 0px
 $bgColor: #F1EDE2
 $codeGreen: #8ECA16
-$codeBg: #002B33
+$codeBg: rgba(0,43,51,.8)
 $codeRed: #D73117
 $codeBlue: #04C4D9	
 $codeOrange: #FF530D
@@ -83,7 +83,19 @@ body, html
 			a
 				color: black
 				&:hover
-					color: $codeGreen					
+					color: $codeGreen
+	.lab5Theme
+		background: none
+		h1,h2,h3,h4, a
+			color: black
+			a
+				color: $codeGreen
+		#navBar
+			background: rgba(0,0,0,.8)
+			a
+				color: #F1EDE2
+				&:hover
+					color: $codeGreen														
 
 /* End Theme Setup */
 
@@ -256,9 +268,17 @@ $scrollScaleDeep: scale((1 + ($scrollSpeedDeep * -1) / $perspective))
 
 /* Video Setup */
 
-#fullscreenVideo
-	width: 100vw
+#bgVid
+	position: fixed
+	right: 0
+	bottom: 0
+	width: auto
+	min-width: 100%
 	height: auto
+	min-height: 100%
+	z-index: -100
+	background: transparent url(video-bg.jpg) no-repeat
+	background-size: cover
 
 /* End Video Setup */
 
