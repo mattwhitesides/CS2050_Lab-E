@@ -8,7 +8,7 @@ $bgColor: #F1EDE2
 $codeGreen: #8ECA16
 $codeBg: rgba(0,43,51,.8)
 $codeRed: #D73117
-$codeBlue: #04C4D9	
+$codeBlue: #04C4D9
 $codeOrange: #FF530D
 
 /* Mixin Setup */
@@ -32,9 +32,9 @@ $codeOrange: #FF530D
 // 	src: url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700')
 
 body, html
-	font-family: open-sans, sans-serif 
-	background: #F1EDE2	
-	h1, h2, h3 
+	font-family: open-sans, sans-serif
+	background: #F1EDE2
+	h1, h2, h3
 		font-weight: 300
 	article, p
 		font-weight: 300
@@ -57,7 +57,7 @@ body, html
 		-webkit-background-size: cover
 		-moz-background-size: cover
 		-o-background-size: cover
-		background-size: cover		
+		background-size: cover
 		h1,h2,h3,h4, a
 			color: #F1EDE2
 			a
@@ -73,7 +73,23 @@ body, html
 		-webkit-background-size: cover
 		-moz-background-size: cover
 		-o-background-size: cover
-		background-size: cover		
+		background-size: cover
+		h1,h2,h3,h4, a
+			color: #F1EDE2
+			a
+				color: $codeGreen
+		#navBar
+			background: #F1EDE2
+			a
+				color: black
+				&:hover
+					color: $codeGreen
+	.lab4Theme
+		background: url(../../images/ironMan.png) no-repeat center center fixed
+		-webkit-background-size: cover
+		-moz-background-size: cover
+		-o-background-size: cover
+		background-size: cover
 		h1,h2,h3,h4, a
 			color: #F1EDE2
 			a
@@ -95,7 +111,7 @@ body, html
 			a
 				color: #F1EDE2
 				&:hover
-					color: $codeGreen														
+					color: $codeGreen
 
 /* End Theme Setup */
 
@@ -120,7 +136,7 @@ body, html
 	[class*='col-']:last-of-type
 		padding-right: $padding
 
-/* End Optional Grid Padding */	
+/* End Optional Grid Padding */
 
 [class*='col-']
 	float: left
@@ -179,7 +195,7 @@ $scrollScaleDeep: scale((1 + ($scrollSpeedDeep * -1) / $perspective))
 .parallax-layer
 	position: absolute
 	top: 0px
-	right: 0px	
+	right: 0px
 	bottom: 0px
 	left: 0px
 
@@ -284,19 +300,19 @@ $scrollScaleDeep: scale((1 + ($scrollSpeedDeep * -1) / $perspective))
 
 /* NavBar Setup */
 
-$navWidth: 300px	
+$navWidth: 300px
 $navHeight: 50px
 $navBr: 30px
 
 .navPadding
-	padding-top: ($navHeight * 2)	
+	padding-top: ($navHeight * 2)
 	padding-bottom: $navHeight
 
 .navPaddingNoBottom
 	padding-top: ($navHeight * 2)
 
 .bottomPadding
-	padding-bottom: $navHeight	
+	padding-bottom: $navHeight
 
 .topPadding
 	padding-top: $navHeight
@@ -338,10 +354,10 @@ $navBr: 30px
 			display: inline
 		.codeBlue
 			color: $codeBlue
-			display: inline	
+			display: inline
 		.codeOrange
 			color: $codeOrange
-			display: inline				
+			display: inline
 
 .code2, #forceCode2
 	background: $codeBg
@@ -357,10 +373,10 @@ $navBr: 30px
 			display: inline
 		.codeBlue
 			color: $codeBlue
-			display: inline	
+			display: inline
 		.codeOrange
 			color: $codeOrange
-			display: inline			
+			display: inline
 
 .codeSmall, #forceCodeSmall
 	background: $codeBg
@@ -391,17 +407,17 @@ $navBr: 30px
 			display: inline
 		.codeBlue
 			color: $codeBlue
-			display: inline	
+			display: inline
 		.codeOrange
 			color: $codeOrange
-			display: inline	
+			display: inline
 
 .tab
 	margin-left: 1em
 .tab2
 	margin-left: 2em
 .tab3
-	margin-left: 3em	
+	margin-left: 3em
 
 /* Code Formatting */
 
@@ -417,7 +433,7 @@ $navBr: 30px
 
 /* Special Case */
 
-.smallImg 
+.smallImg
 	img
 		display: block
 		height: 150px
@@ -446,3 +462,12 @@ $navBr: 30px
 	padding-bottom: 75px
 
 /* End Special Case */
+
+/* Lists */
+
+.infoList
+	padding: 5px
+	li
+		padding-bottom: 3px
+
+/* End Lists */
