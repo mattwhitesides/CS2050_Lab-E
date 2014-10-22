@@ -87,6 +87,18 @@ body, html {
         color: #f1ede2; }
         body .lab5Theme #navBar a:hover, html .lab5Theme #navBar a:hover {
           color: #8eca16; }
+  body .lab7Theme, html .lab7Theme {
+    background: none; }
+    body .lab7Theme h1, body .lab7Theme h2, body .lab7Theme h3, body .lab7Theme h4, body .lab7Theme a, html .lab7Theme h1, html .lab7Theme h2, html .lab7Theme h3, html .lab7Theme h4, html .lab7Theme a {
+      color: #f1ede2; }
+      body .lab7Theme h1 a, body .lab7Theme h2 a, body .lab7Theme h3 a, body .lab7Theme h4 a, body .lab7Theme a a, html .lab7Theme h1 a, html .lab7Theme h2 a, html .lab7Theme h3 a, html .lab7Theme h4 a, html .lab7Theme a a {
+        color: #8eca16; }
+    body .lab7Theme #navBar, html .lab7Theme #navBar {
+      background: #f1ede2; }
+      body .lab7Theme #navBar a, html .lab7Theme #navBar a {
+        color: black; }
+        body .lab7Theme #navBar a:hover, html .lab7Theme #navBar a:hover {
+          color: #8eca16; }
 
 /* End Theme Setup */
 /* Grid Setup (Thanks to Chris Coyier at http://css-tricks.com/dont-overthink-it-grids/) */
