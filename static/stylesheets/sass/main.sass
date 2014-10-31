@@ -25,6 +25,14 @@ $codeOrange: #FF530D
 
 /* End Mixin Setup */
 
+/* Custom Fonts Setup */
+
+@font-face
+	font-family: halloween
+	src: url(../../fonts/halloween.ttf)
+
+/* End Fonts Setup*/
+
 /* Font Theme Setup */
 
 // @font-face
@@ -76,6 +84,7 @@ body, html
 		background-size: cover
 		h1,h2,h3,h4, a
 			color: #F1EDE2
+			font
 			a
 				color: $codeGreen
 		#navBar
@@ -116,6 +125,24 @@ body, html
 		background: none
 		h1,h2,h3,h4, a
 			color: $bgColor
+			a
+				color: $codeGreen
+		#navBar
+			background: #F1EDE2
+			a
+				color: black
+				&:hover
+					color: $codeGreen
+	.lab8Theme
+		background: url(../../images/halloween.png) no-repeat center center fixed
+		-webkit-background-size: cover
+		-moz-background-size: cover
+		-o-background-size: cover
+		background-size: cover
+		h1,h2,h3,h4
+			color: #FD6824
+		h1
+			font-family: halloween
 			a
 				color: $codeGreen
 		#navBar
