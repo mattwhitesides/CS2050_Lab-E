@@ -31,6 +31,10 @@ $codeOrange: #FF530D
 	font-family: halloween
 	src: url(../../fonts/halloween.ttf)
 
+@font-face
+	font-family: Inversionz
+	src: url(../../fonts/Inversionz.otf)
+
 /* End Fonts Setup*/
 
 /* Font Theme Setup */
@@ -159,6 +163,27 @@ body, html
 		background-size: cover
 		h1,h2,h3,h4, a
 			color: black
+			a
+				color: $codeGreen
+		#navBar
+			background: black
+			a
+				color: #F1EDE2
+				&:hover
+					color: $codeGreen
+	.lab10Theme
+		background: url(../../images/lab10.png) no-repeat center center fixed
+		-webkit-background-size: cover
+		-moz-background-size: cover
+		-o-background-size: cover
+		background-size: cover
+		h1,h2,h3,h4, a
+			color: #F1EDE2
+		h1
+			font-family: Inversionz
+			font-size: 35px
+		.title
+			font-size: 80px
 			a
 				color: $codeGreen
 		#navBar
