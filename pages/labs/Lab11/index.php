@@ -22,7 +22,7 @@
           $quotes = array(
             "And will you succeed? Yes you will indeed! (98 and 3/4 percent guaranteed.)",
             "Sometimes the questions are complicated and the answers are simple.",
-            "Think left and think right and think low and think high. Oh, the things you can think up if only you try!",
+            "Think left and think right and think low and think high.\nOh, the things you can think up if only you try!",
             "Oh, the thinks you can think!",
             "It is better to know how to learn than to know.",
             "Just tell yourself, Duckie, you’re really quite lucky!",
@@ -33,7 +33,7 @@
 
           $randNum = rand(0,(sizeof($quotes) - 1));
 
-          echo $quotes[randNum];
+          echo $quotes[$randNum];
         ?>
       &#8221;
     </h2>
