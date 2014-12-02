@@ -12,6 +12,9 @@
 @font-face {
   font-family: Inversionz;
   src: url(../../fonts/Inversionz.otf); }
+@font-face {
+  font-family: LemonMilk;
+  src: url(../../fonts/LemonMilk.otf); }
 /* End Fonts Setup */
 /* Font Theme Setup */
 body, html {
@@ -161,6 +164,30 @@ body, html {
       body .lab10Theme #navBar a, html .lab10Theme #navBar a {
         color: #f1ede2; }
         body .lab10Theme #navBar a:hover, html .lab10Theme #navBar a:hover {
+          color: #8eca16; }
+  body .lab11Theme, html .lab11Theme {
+    background: url(../../images/lab11.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    body .lab11Theme h1, body .lab11Theme h2, body .lab11Theme h3, body .lab11Theme h4, body .lab11Theme a, html .lab11Theme h1, html .lab11Theme h2, html .lab11Theme h3, html .lab11Theme h4, html .lab11Theme a {
+      color: #f1ede2; }
+    body .lab11Theme h1, html .lab11Theme h1 {
+      font-family: LemonMilk;
+      font-size: 35px; }
+    body .lab11Theme h2, html .lab11Theme h2 {
+      font-family: LemonMilk;
+      font-size: 35px; }
+    body .lab11Theme .title, html .lab11Theme .title {
+      font-size: 80px; }
+      body .lab11Theme .title a, html .lab11Theme .title a {
+        color: #8eca16; }
+    body .lab11Theme #navBar, html .lab11Theme #navBar {
+      background: black; }
+      body .lab11Theme #navBar a, html .lab11Theme #navBar a {
+        color: #f1ede2; }
+        body .lab11Theme #navBar a:hover, html .lab11Theme #navBar a:hover {
           color: #8eca16; }
 
 /* End Theme Setup */
