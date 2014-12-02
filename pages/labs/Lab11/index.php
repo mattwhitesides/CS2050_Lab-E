@@ -16,7 +16,27 @@
     </div>
 
     <h1 class="centerText navPadding title">The Last Lab!</h1>
-    <h2 class="centerText">&#8220;And will you succeed? Yes you will indeed! (98 and 3/4 percent guaranteed.)&#8221;</h2>
+    <h2 class="centerText">
+      &#8220;
+        <?php
+          $quotes = array(
+            "And will you succeed? Yes you will indeed! (98 and 3/4 percent guaranteed.)",
+            "Sometimes the questions are complicated and the answers are simple.",
+            "Think left and think right and think low and think high. Oh, the things you can think up if only you try!",
+            "Oh, the thinks you can think!",
+            "It is better to know how to learn than to know.",
+            "Just tell yourself, Duckie, you’re really quite lucky!",
+            "Sometimes you will never know the value of a moment, until it becomes a memory.",
+            "Everything stinks till it’s finished.",
+            "Now my troubles are going to have troubles with me!"
+          );
+
+          $randNum = rand(0,(sizeof($quotes) - 1));
+
+          echo $quotes[randNum];
+        ?>
+      &#8221;
+    </h2>
     <h2 class="centerText bottomPadding">- Dr. Seuss</h12>
     <h1 class="centerText">Link To This Page</h1>
     <div class="center" id="forceCode2">
