@@ -60,8 +60,28 @@
     <h1 class="centerText">KINDA USEFUL STUFF</h1>
     <br>
     <div id="forceCode2" class="center">
-      <h1 class="centerText"><a href="Makefile">lab 11 Makefile</a></h1>
-      <h1 class="centerText"><a href="parser.h">lab 11 Header file</a></h1>
+      <h1 class="centerText"><a href="parser.h" download>lab 11 Header file</a></h1>
+      <h1 class="centerText"><a href="letter.txt" download>lab 11 Example input file</a></h1>
+    </div>
+    <br>
+    <h1 class="centerText">Example File Read Loop</h1>
+    <br>
+    <div id="forceCode2" class="center">
+      <h1>char* token = "";</h1>
+      <h1>char buffer[MAX_LEN];</h1>
+      <br>
+      <h1>while (fgets(buffer, MAX_LINE, file) != NULL) {</h1>
+        <br>
+        <h1 class="tab">if ( buffer[ strlen(buffer) - 1] == '\n') {</h1>
+          <h1 class="tab2">buffer[ strlen(buffer) - 1] = '\0';</h1>
+          <h1 class="tab">}</h1>
+        <br>
+        <h1 class="tab">token = strtok(buffer, " \n\r\t");</h1>
+        <br>
+        <h1 class="tab">while (token != NULL) {</h1>
+          <br>
+          <h1 class="tab">}</h1>
+      <h1>}</h1>
     </div>
     <br>
     <h1 class="centerText">Bonus Points For Listening To These And Crying Before You Leave</h1>
