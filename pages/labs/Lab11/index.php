@@ -68,7 +68,7 @@
     <br>
     <div id="forceCode2" class="center">
       <h1>char* token = "";</h1>
-      <h1>char buffer[MAX_LEN];</h1>
+      <h1>char buffer[MAX_LINE];</h1>
       <br>
       <h1>while (fgets(buffer, MAX_LINE, file) != NULL) {</h1>
         <br>
