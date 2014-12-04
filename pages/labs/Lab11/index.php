@@ -67,19 +67,30 @@
     <h1 class="centerText">Example File Read Loop</h1>
     <br>
     <div id="forceCode2" class="center">
+      <h1 class="codeBlue">//Initialize a char pointer to hold what strtok returns</h1>
       <h1>char* token = "";</h1>
+      <h1 class="codeBlue">//Initialize a string buffer to hold the line that fgets returns</h1>
       <h1>char buffer[MAX_LEN];</h1>
       <br>
+      <h1 class="codeBlue">//Loop over the file line by line until the end</h1>
       <h1>while (fgets(buffer, MAX_LINE, file) != NULL) {</h1>
         <br>
+        <h1 class="codeBlue">//Replace the end of line with a null terminator</h1>
+        <h1 class="codeBlue">//to treat it as a single string</h1>
         <h1 class="tab">if ( buffer[ strlen(buffer) - 1] == '\n') {</h1>
           <h1 class="tab2">buffer[ strlen(buffer) - 1] = '\0';</h1>
           <h1 class="tab">}</h1>
         <br>
+        <h1 class="codeBlue">//Tokenize the string by spaces, tabs and newlines</h1>
         <h1 class="tab">token = strtok(buffer, " \n\r\t");</h1>
         <br>
+        <h1 class="codeBlue">//Loop over the tokens</h1>
         <h1 class="tab">while (token != NULL) {</h1>
           <br>
+          <h1>//Insert function call logic here</h1>
+          <br>
+          <h1 class="codeBlue">//Set the token to the next one in the string</h1>
+          <h1>token = strtok(NULL, " \n\r\t");</h1>
           <h1 class="tab">}</h1>
       <h1>}</h1>
     </div>
