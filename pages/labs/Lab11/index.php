@@ -72,8 +72,8 @@
       <br>
       <h1>while (fgets(buffer, MAX_LINE, file) != NULL) {</h1>
         <br>
-        <h1 class="tab">if ( buffer[ strlen(buffer) - 1] == '\n') {</h1>
-          <h1 class="tab2">buffer[ strlen(buffer) - 1] = '\0';</h1>
+        <h1 class="tab">if (buffer[strlen(buffer) - 1] == '\n') {</h1>
+          <h1 class="tab2">buffer[strlen(buffer) - 1] = '\0';</h1>
           <h1 class="tab">}</h1>
         <br>
         <h1 class="tab">token = strtok(buffer, " \n\r\t");</h1>
