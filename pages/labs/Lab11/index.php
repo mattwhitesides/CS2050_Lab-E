@@ -80,9 +80,9 @@
         <br>
         <h1 class="tab">while (token != NULL) {</h1>
           <br>
-          <h1>//Insert function call logic here</h1>
+          <h1 class="tab2">//Insert function call logic here</h1>
           <br>
-          <h1>token = strtok(NULL, " \n\r\t");</h1>
+          <h1 class="tab2">token = strtok(NULL, " \n\r\t");</h1>
           <h1 class="tab">}</h1>
       <h1>}</h1>
     </div>
