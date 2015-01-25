@@ -30,8 +30,6 @@ body, html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
-    body .fullScreenBG #heroTitle, html .fullScreenBG #heroTitle {
-      font-size: 60px; }
   body .lab1Theme, html .lab1Theme {
     background: url(../../images/Lab1.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -104,10 +102,9 @@ body, html {
           color: #8eca16; }
   body .lab5Theme, html .lab5Theme {
     background: none; }
-    body .lab5Theme h1, body .lab5Theme h2, body .lab5Theme h3, body .lab5Theme h4, body .lab5Theme a, html .lab5Theme h1, html .lab5Theme h2, html .lab5Theme h3, html .lab5Theme h4, html .lab5Theme a {
-      color: black; }
-      body .lab5Theme h1 a, body .lab5Theme h2 a, body .lab5Theme h3 a, body .lab5Theme h4 a, body .lab5Theme a a, html .lab5Theme h1 a, html .lab5Theme h2 a, html .lab5Theme h3 a, html .lab5Theme h4 a, html .lab5Theme a a {
-        color: #8eca16; }
+    body .lab5Theme #heroTitle, html .lab5Theme #heroTitle {
+      font-size: 100px;
+      text-shadow: 2px 2px 10px black; }
     body .lab5Theme #navBar, html .lab5Theme #navBar {
       background: rgba(0, 0, 0, 0.8); }
       body .lab5Theme #navBar a, html .lab5Theme #navBar a {
