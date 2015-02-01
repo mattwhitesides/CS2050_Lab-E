@@ -19,7 +19,7 @@
 /* Font Theme Setup */
 body, html {
   font-family: open-sans, sans-serif;
-  background: #f1ede2; }
+  background: #F1EDE2; }
   body h1, body h2, body h3, html h1, html h2, html h3 {
     font-weight: 300; }
   body article, body p, html article, html p {
@@ -37,21 +37,31 @@ body, html {
     -o-background-size: cover;
     background-size: cover; }
     body .lab1Theme h1, body .lab1Theme h2, body .lab1Theme h3, body .lab1Theme h4, body .lab1Theme a, html .lab1Theme h1, html .lab1Theme h2, html .lab1Theme h3, html .lab1Theme h4, html .lab1Theme a {
-      color: #f1ede2; }
+      color: #F1EDE2; }
       body .lab1Theme h1 a, body .lab1Theme h2 a, body .lab1Theme h3 a, body .lab1Theme h4 a, body .lab1Theme a a, html .lab1Theme h1 a, html .lab1Theme h2 a, html .lab1Theme h3 a, html .lab1Theme h4 a, html .lab1Theme a a {
-        color: #8eca16; }
+        color: #8ECA16; }
     body .lab1Theme #navBar, html .lab1Theme #navBar {
-      background: #f1ede2; }
+      background: #F1EDE2; }
       body .lab1Theme #navBar a, html .lab1Theme #navBar a {
         color: black; }
         body .lab1Theme #navBar a:hover, html .lab1Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
   body .lab2Theme, html .lab2Theme {
-    background: url(../../images/lab2Theme.png) no-repeat center center fixed;
+    background: url(../../images/lab2.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
+    body .lab2Theme h1, body .lab2Theme h2, body .lab2Theme h3, body .lab2Theme h4, body .lab2Theme a, html .lab2Theme h1, html .lab2Theme h2, html .lab2Theme h3, html .lab2Theme h4, html .lab2Theme a {
+      color: #F1EDE2; }
+      body .lab2Theme h1 a, body .lab2Theme h2 a, body .lab2Theme h3 a, body .lab2Theme h4 a, body .lab2Theme a a, html .lab2Theme h1 a, html .lab2Theme h2 a, html .lab2Theme h3 a, html .lab2Theme h4 a, html .lab2Theme a a {
+        color: #8ECA16; }
+    body .lab2Theme #navBar, html .lab2Theme #navBar {
+      background: #F1EDE2; }
+      body .lab2Theme #navBar a, html .lab2Theme #navBar a {
+        color: black; }
+        body .lab2Theme #navBar a:hover, html .lab2Theme #navBar a:hover {
+          color: #8ECA16; }
   body .lab3Theme, html .lab3Theme {
     background: url(../../images/lab3Theme.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -59,15 +69,15 @@ body, html {
     -o-background-size: cover;
     background-size: cover; }
     body .lab3Theme h1, body .lab3Theme h2, body .lab3Theme h3, body .lab3Theme h4, body .lab3Theme a, html .lab3Theme h1, html .lab3Theme h2, html .lab3Theme h3, html .lab3Theme h4, html .lab3Theme a {
-      color: #f1ede2; }
+      color: #F1EDE2; }
       body .lab3Theme h1 a, body .lab3Theme h2 a, body .lab3Theme h3 a, body .lab3Theme h4 a, body .lab3Theme a a, html .lab3Theme h1 a, html .lab3Theme h2 a, html .lab3Theme h3 a, html .lab3Theme h4 a, html .lab3Theme a a {
-        color: #8eca16; }
+        color: #8ECA16; }
     body .lab3Theme #navBar, html .lab3Theme #navBar {
-      background: #f1ede2; }
+      background: #F1EDE2; }
       body .lab3Theme #navBar a, html .lab3Theme #navBar a {
         color: black; }
         body .lab3Theme #navBar a:hover, html .lab3Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
   body .lab4Theme, html .lab4Theme {
     background: url(../../images/punkTheme.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -75,15 +85,15 @@ body, html {
     -o-background-size: cover;
     background-size: cover; }
     body .lab4Theme h1, body .lab4Theme h2, body .lab4Theme h3, body .lab4Theme h4, body .lab4Theme a, html .lab4Theme h1, html .lab4Theme h2, html .lab4Theme h3, html .lab4Theme h4, html .lab4Theme a {
-      color: #f1ede2; }
+      color: #F1EDE2; }
       body .lab4Theme h1 a, body .lab4Theme h2 a, body .lab4Theme h3 a, body .lab4Theme h4 a, body .lab4Theme a a, html .lab4Theme h1 a, html .lab4Theme h2 a, html .lab4Theme h3 a, html .lab4Theme h4 a, html .lab4Theme a a {
-        color: #8eca16; }
+        color: #8ECA16; }
     body .lab4Theme #navBar, html .lab4Theme #navBar {
-      background: #f1ede2; }
+      background: #F1EDE2; }
       body .lab4Theme #navBar a, html .lab4Theme #navBar a {
         color: black; }
         body .lab4Theme #navBar a:hover, html .lab4Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
   body .lab6Theme, html .lab6Theme {
     background: url(../../images/ironMan.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -91,15 +101,15 @@ body, html {
     -o-background-size: cover;
     background-size: cover; }
     body .lab6Theme h1, body .lab6Theme h2, body .lab6Theme h3, body .lab6Theme h4, body .lab6Theme a, html .lab6Theme h1, html .lab6Theme h2, html .lab6Theme h3, html .lab6Theme h4, html .lab6Theme a {
-      color: #f1ede2; }
+      color: #F1EDE2; }
       body .lab6Theme h1 a, body .lab6Theme h2 a, body .lab6Theme h3 a, body .lab6Theme h4 a, body .lab6Theme a a, html .lab6Theme h1 a, html .lab6Theme h2 a, html .lab6Theme h3 a, html .lab6Theme h4 a, html .lab6Theme a a {
-        color: #8eca16; }
+        color: #8ECA16; }
     body .lab6Theme #navBar, html .lab6Theme #navBar {
-      background: #f1ede2; }
+      background: #F1EDE2; }
       body .lab6Theme #navBar a, html .lab6Theme #navBar a {
         color: black; }
         body .lab6Theme #navBar a:hover, html .lab6Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
   body .lab5Theme, html .lab5Theme {
     background: none; }
     body .lab5Theme #heroTitle, html .lab5Theme #heroTitle {
@@ -108,21 +118,21 @@ body, html {
     body .lab5Theme #navBar, html .lab5Theme #navBar {
       background: rgba(0, 0, 0, 0.8); }
       body .lab5Theme #navBar a, html .lab5Theme #navBar a {
-        color: #f1ede2; }
+        color: #F1EDE2; }
         body .lab5Theme #navBar a:hover, html .lab5Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
   body .lab7Theme, html .lab7Theme {
     background: none; }
     body .lab7Theme h1, body .lab7Theme h2, body .lab7Theme h3, body .lab7Theme h4, body .lab7Theme a, html .lab7Theme h1, html .lab7Theme h2, html .lab7Theme h3, html .lab7Theme h4, html .lab7Theme a {
-      color: #f1ede2; }
+      color: #F1EDE2; }
       body .lab7Theme h1 a, body .lab7Theme h2 a, body .lab7Theme h3 a, body .lab7Theme h4 a, body .lab7Theme a a, html .lab7Theme h1 a, html .lab7Theme h2 a, html .lab7Theme h3 a, html .lab7Theme h4 a, html .lab7Theme a a {
-        color: #8eca16; }
+        color: #8ECA16; }
     body .lab7Theme #navBar, html .lab7Theme #navBar {
-      background: #f1ede2; }
+      background: #F1EDE2; }
       body .lab7Theme #navBar a, html .lab7Theme #navBar a {
         color: black; }
         body .lab7Theme #navBar a:hover, html .lab7Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
   body .lab8Theme, html .lab8Theme {
     background: url(../../images/halloween.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -130,17 +140,17 @@ body, html {
     -o-background-size: cover;
     background-size: cover; }
     body .lab8Theme h1, body .lab8Theme h2, body .lab8Theme h3, body .lab8Theme h4, html .lab8Theme h1, html .lab8Theme h2, html .lab8Theme h3, html .lab8Theme h4 {
-      color: #fd6824; }
+      color: #FD6824; }
     body .lab8Theme h1, html .lab8Theme h1 {
       font-family: halloween; }
       body .lab8Theme h1 a, html .lab8Theme h1 a {
-        color: #8eca16; }
+        color: #8ECA16; }
     body .lab8Theme #navBar, html .lab8Theme #navBar {
-      background: #f1ede2; }
+      background: #F1EDE2; }
       body .lab8Theme #navBar a, html .lab8Theme #navBar a {
         color: black; }
         body .lab8Theme #navBar a:hover, html .lab8Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
   body .lab9Theme, html .lab9Theme {
     background: url(../../images/lab9b.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -150,13 +160,13 @@ body, html {
     body .lab9Theme h1, body .lab9Theme h2, body .lab9Theme h3, body .lab9Theme h4, body .lab9Theme a, html .lab9Theme h1, html .lab9Theme h2, html .lab9Theme h3, html .lab9Theme h4, html .lab9Theme a {
       color: black; }
       body .lab9Theme h1 a, body .lab9Theme h2 a, body .lab9Theme h3 a, body .lab9Theme h4 a, body .lab9Theme a a, html .lab9Theme h1 a, html .lab9Theme h2 a, html .lab9Theme h3 a, html .lab9Theme h4 a, html .lab9Theme a a {
-        color: #8eca16; }
+        color: #8ECA16; }
     body .lab9Theme #navBar, html .lab9Theme #navBar {
       background: black; }
       body .lab9Theme #navBar a, html .lab9Theme #navBar a {
-        color: #f1ede2; }
+        color: #F1EDE2; }
         body .lab9Theme #navBar a:hover, html .lab9Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
   body .lab10Theme, html .lab10Theme {
     background: url(../../images/lab10.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -164,20 +174,20 @@ body, html {
     -o-background-size: cover;
     background-size: cover; }
     body .lab10Theme h1, body .lab10Theme h2, body .lab10Theme h3, body .lab10Theme h4, body .lab10Theme a, html .lab10Theme h1, html .lab10Theme h2, html .lab10Theme h3, html .lab10Theme h4, html .lab10Theme a {
-      color: #f1ede2; }
+      color: #F1EDE2; }
     body .lab10Theme h1, html .lab10Theme h1 {
       font-family: Inversionz;
       font-size: 35px; }
     body .lab10Theme .title, html .lab10Theme .title {
       font-size: 80px; }
       body .lab10Theme .title a, html .lab10Theme .title a {
-        color: #8eca16; }
+        color: #8ECA16; }
     body .lab10Theme #navBar, html .lab10Theme #navBar {
       background: black; }
       body .lab10Theme #navBar a, html .lab10Theme #navBar a {
-        color: #f1ede2; }
+        color: #F1EDE2; }
         body .lab10Theme #navBar a:hover, html .lab10Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
   body .lab11Theme, html .lab11Theme {
     background: url(../../images/lab11.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -185,7 +195,7 @@ body, html {
     -o-background-size: cover;
     background-size: cover; }
     body .lab11Theme h1, body .lab11Theme h2, body .lab11Theme h3, body .lab11Theme h4, body .lab11Theme a, html .lab11Theme h1, html .lab11Theme h2, html .lab11Theme h3, html .lab11Theme h4, html .lab11Theme a {
-      color: #f1ede2; }
+      color: #F1EDE2; }
     body .lab11Theme h1, html .lab11Theme h1 {
       font-family: LemonMilk;
       font-size: 35px; }
@@ -195,13 +205,13 @@ body, html {
     body .lab11Theme .title, html .lab11Theme .title {
       font-size: 80px; }
       body .lab11Theme .title a, html .lab11Theme .title a {
-        color: #8eca16; }
+        color: #8ECA16; }
     body .lab11Theme #navBar, html .lab11Theme #navBar {
       background: black; }
       body .lab11Theme #navBar a, html .lab11Theme #navBar a {
-        color: #f1ede2; }
+        color: #F1EDE2; }
         body .lab11Theme #navBar a:hover, html .lab11Theme #navBar a:hover {
-          color: #8eca16; }
+          color: #8ECA16; }
 
 /* End Theme Setup */
 /* Grid Setup (Thanks to Chris Coyier at http://css-tricks.com/dont-overthink-it-grids/) */
@@ -323,28 +333,28 @@ body, html {
 /* End Basic Tools */
 /* Test Tools */
 .test-background-color-blue {
-  background: #00aa9a; }
+  background: #00AA9A; }
 
 .test-background-color-orange {
-  background: #fd6824; }
+  background: #FD6824; }
 
 .test-background-color-red {
-  background: #bf0228; }
+  background: #BF0228; }
 
 .test-background-color-white {
-  background: #f1ede2; }
+  background: #F1EDE2; }
 
 .test-text-color-blue {
-  color: #00aa9a; }
+  color: #00AA9A; }
 
 .test-text-color-orange {
-  color: #fd6824; }
+  color: #FD6824; }
 
 .test-text-color-red {
-  color: #bf0228; }
+  color: #BF0228; }
 
 .test-text-color-white {
-  color: #f1ede2; }
+  color: #F1EDE2; }
 
 .testTitle {
   text-align: center;
@@ -384,7 +394,7 @@ body, html {
 
 #navBar {
   background: black;
-  color: #f1ede2;
+  color: #F1EDE2;
   height: 50px;
   width: 300px;
   position: fixed;
@@ -395,9 +405,9 @@ body, html {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px; }
   #navBar a {
-    color: #f1ede2; }
+    color: #F1EDE2; }
     #navBar a:hover {
-      color: #8eca16; }
+      color: #8ECA16; }
   #navBar li {
     display: inline-block;
     padding: 10px; }
@@ -412,16 +422,16 @@ body, html {
   -moz-border-radius: 5px; }
   .code h1, .code a {
     font-family: courier;
-    color: #8eca16;
+    color: #8ECA16;
     padding: 10px; }
     .code h1 .codeRed, .code a .codeRed {
-      color: #d73117;
+      color: #D73117;
       display: inline; }
     .code h1 .codeBlue, .code a .codeBlue {
-      color: #04c4d9;
+      color: #04C4D9;
       display: inline; }
     .code h1 .codeOrange, .code a .codeOrange {
-      color: #ff530d;
+      color: #FF530D;
       display: inline; }
 
 .code2, #forceCode2 {
@@ -432,17 +442,17 @@ body, html {
   -moz-border-radius: 5px; }
   .code2 h1, #forceCode2 h1 {
     font-family: courier;
-    color: #8eca16;
+    color: #8ECA16;
     padding: 10px;
     font-size: 22px; }
     .code2 h1 .codeRed, #forceCode2 h1 .codeRed {
-      color: #d73117;
+      color: #D73117;
       display: inline; }
     .code2 h1 .codeBlue, #forceCode2 h1 .codeBlue {
-      color: #04c4d9;
+      color: #04C4D9;
       display: inline; }
     .code2 h1 .codeOrange, #forceCode2 h1 .codeOrange {
-      color: #ff530d;
+      color: #FF530D;
       display: inline; }
 
 .codeSmall, #forceCodeSmall {
@@ -453,13 +463,13 @@ body, html {
   -moz-border-radius: 5px; }
   .codeSmall h1, .codeSmall a, #forceCodeSmall h1, #forceCodeSmall a {
     font-family: courier;
-    color: #8eca16;
+    color: #8ECA16;
     font-size: 22px;
     padding: 10px; }
     .codeSmall h1 a, .codeSmall a a, #forceCodeSmall h1 a, #forceCodeSmall a a {
-      color: #8eca16; }
+      color: #8ECA16; }
     .codeSmall h1 .codeRed, .codeSmall a .codeRed, #forceCodeSmall h1 .codeRed, #forceCodeSmall a .codeRed {
-      color: #d73117;
+      color: #D73117;
       display: inline; }
 
 .codeLarge, #forceCodeLarge {
@@ -470,17 +480,17 @@ body, html {
   -moz-border-radius: 5px; }
   .codeLarge h1, #forceCodeLarge h1 {
     font-family: courier;
-    color: #8eca16;
+    color: #8ECA16;
     padding: 10px;
     font-size: 22px; }
     .codeLarge h1 .codeRed, #forceCodeLarge h1 .codeRed {
-      color: #d73117;
+      color: #D73117;
       display: inline; }
     .codeLarge h1 .codeBlue, #forceCodeLarge h1 .codeBlue {
-      color: #04c4d9;
+      color: #04C4D9;
       display: inline; }
     .codeLarge h1 .codeOrange, #forceCodeLarge h1 .codeOrange {
-      color: #ff530d;
+      color: #FF530D;
       display: inline; }
 
 .tab {
@@ -518,13 +528,13 @@ body, html {
     padding-bottom: 10px; }
 
 .ajaxLink {
-  background: #fd6824; }
+  background: #FD6824; }
   .ajaxLink h1 {
     color: black; }
   .ajaxLink:hover {
-    background: #bf0228; }
+    background: #BF0228; }
     .ajaxLink:hover h1 {
-      color: #f1ede2; }
+      color: #F1EDE2; }
 
 .sublimeFix {
   padding-bottom: 75px; }
