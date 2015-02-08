@@ -68,16 +68,8 @@ body, html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
-    body .lab3Theme h1, body .lab3Theme h2, body .lab3Theme h3, body .lab3Theme h4, body .lab3Theme a, html .lab3Theme h1, html .lab3Theme h2, html .lab3Theme h3, html .lab3Theme h4, html .lab3Theme a {
-      color: #F1EDE2; }
-      body .lab3Theme h1 a, body .lab3Theme h2 a, body .lab3Theme h3 a, body .lab3Theme h4 a, body .lab3Theme a a, html .lab3Theme h1 a, html .lab3Theme h2 a, html .lab3Theme h3 a, html .lab3Theme h4 a, html .lab3Theme a a {
-        color: #8ECA16; }
-    body .lab3Theme #navBar, html .lab3Theme #navBar {
-      background: #F1EDE2; }
-      body .lab3Theme #navBar a, html .lab3Theme #navBar a {
-        color: black; }
-        body .lab3Theme #navBar a:hover, html .lab3Theme #navBar a:hover {
-          color: #8ECA16; }
+    body .lab3Theme a, html .lab3Theme a {
+      color: #8ECA16; }
   body .lab4Theme, html .lab4Theme {
     background: url(../../images/punkTheme.png) no-repeat center center fixed;
     -webkit-background-size: cover;
