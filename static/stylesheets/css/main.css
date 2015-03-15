@@ -86,22 +86,6 @@ body, html {
         color: black; }
         body .lab4Theme #navBar a:hover, html .lab4Theme #navBar a:hover {
           color: #8ECA16; }
-  body .lab6Theme, html .lab6Theme {
-    background: url(../../images/ironMan.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-    body .lab6Theme h1, body .lab6Theme h2, body .lab6Theme h3, body .lab6Theme h4, body .lab6Theme a, html .lab6Theme h1, html .lab6Theme h2, html .lab6Theme h3, html .lab6Theme h4, html .lab6Theme a {
-      color: #F1EDE2; }
-      body .lab6Theme h1 a, body .lab6Theme h2 a, body .lab6Theme h3 a, body .lab6Theme h4 a, body .lab6Theme a a, html .lab6Theme h1 a, html .lab6Theme h2 a, html .lab6Theme h3 a, html .lab6Theme h4 a, html .lab6Theme a a {
-        color: #8ECA16; }
-    body .lab6Theme #navBar, html .lab6Theme #navBar {
-      background: #F1EDE2; }
-      body .lab6Theme #navBar a, html .lab6Theme #navBar a {
-        color: black; }
-        body .lab6Theme #navBar a:hover, html .lab6Theme #navBar a:hover {
-          color: #8ECA16; }
   body .lab5Theme, html .lab5Theme {
     background: url(../../images/lab5.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -139,7 +123,13 @@ body, html {
         body .lab6Theme #navBar a:hover, html .lab6Theme #navBar a:hover {
           color: #8ECA16; }
   body .lab7Theme, html .lab7Theme {
-    background: none; }
+    background: url(../../images/lab7.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    body .lab7Theme .codeLarge h1, body .lab7Theme .codeLarge h2, body .lab7Theme .codeLarge h3, body .lab7Theme .codeLarge h4, body .lab7Theme .codeLarge a, html .lab7Theme .codeLarge h1, html .lab7Theme .codeLarge h2, html .lab7Theme .codeLarge h3, html .lab7Theme .codeLarge h4, html .lab7Theme .codeLarge a {
+      color: #8ECA16; }
     body .lab7Theme h1, body .lab7Theme h2, body .lab7Theme h3, body .lab7Theme h4, body .lab7Theme a, html .lab7Theme h1, html .lab7Theme h2, html .lab7Theme h3, html .lab7Theme h4, html .lab7Theme a {
       color: #F1EDE2; }
       body .lab7Theme h1 a, body .lab7Theme h2 a, body .lab7Theme h3 a, body .lab7Theme h4 a, body .lab7Theme a a, html .lab7Theme h1 a, html .lab7Theme h2 a, html .lab7Theme h3 a, html .lab7Theme h4 a, html .lab7Theme a a {
